@@ -3,4 +3,4 @@
 # streamlit-cohere-boilerplate
 Boilerplate for Co:here, Streamlit, Streamlit Cloud
 
-
+[Streamlit Documentation](https://docs.streamlit.io/)
