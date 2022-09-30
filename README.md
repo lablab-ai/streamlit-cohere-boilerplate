@@ -5,8 +5,22 @@ Python boilerplate for Co:here generate API ready to deploy on Streamlit. Visit 
 ## How to use Co:here starter
 
 This is a starter project that will help you getting started with Co:here API in a few minutes.
-1. instruction
-2. instruction
+```bash
+# Clone repo
+git clone https://github.com/lablab-ai/streamlit-cohere-boilerplate.git
+
+# change into folder
+cd streamlit-cohere-boilerplate
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Install Streamlit
+pip install streamlit
+
+# Run the Application
+streamlit run myapp.py
+```
 
 ![image](https://user-images.githubusercontent.com/64021988/193038824-214d704b-9676-4f29-8af9-61790e9c38c2.png)
 
