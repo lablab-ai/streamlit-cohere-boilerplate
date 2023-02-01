@@ -14,7 +14,7 @@ def generate_hashtags(input):
     if len(input) == 0:
         return None
     response = co.generate( 
-    model='large', 
+    model='xlarge', 
     prompt='Given a post, this program will generate relevant hashtags.\n\nPost: Why are there no country songs about software engineering\nHashtag: #softwareengineering #code \n--\nPost: Your soulmate is in the WeWork you decided not to go to\nHashtag: #wework #work \n--\nPost: If shes talking to you once a day im sorry bro thats not flirting that standup\nHashtag: #standup #funny \n--\nPost: {}\nHashtags:'.format(input), 
     max_tokens=20, 
     temperature=0.5, 
